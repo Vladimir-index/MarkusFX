@@ -1,12 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <div>Привет медвед</div>
+
+
+    <script>
+        'use strict';
+        function calcAge(birthYear) {
+            const age = 2037 - birthYear;
+
+            function printAge() {
+                const output = `You are ${age}, born in ${birthYear}`
+                console.log(output);
+            }
+            printAge();
+
+            return age;
+        }
+
+        const firstName = 'Jonas';
+        calcAge(1991);
+    </script>
 </body>
+
 </html>
-ну ты блин даешь
